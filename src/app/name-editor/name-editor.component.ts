@@ -8,7 +8,7 @@ import { FormControl } from '@angular/forms';
 })
 export class NameEditorComponent implements OnInit {
 
-  name = new FormControl('');
+  name = new FormControl('default value');
 
   constructor() { }
 
