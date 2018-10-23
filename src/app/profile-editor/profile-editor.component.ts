@@ -18,4 +18,8 @@ export class ProfileEditorComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit() {
+    console.warn(this.profileForm.value);
+  }
+
 }
